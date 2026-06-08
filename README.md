@@ -40,7 +40,7 @@ Blockflix Desktop เป็นแอป **Tauri** (เดสก์ท็อป) 
 
 ## auto-update ทำงานยังไง
 
-1. แอปเช็ก `https://github.com/blockflix/desktop-releases/releases/latest/download/latest.json`
+1. แอปเช็ก `https://github.com/blockflix/Blockflix-Releases/releases/latest/download/latest.json`
 2. ถ้าเวอร์ชันใน `latest.json` ใหม่กว่าที่ติดตั้งอยู่ → ดาวน์โหลด payload
 3. **verify ลายเซ็น** (minisign) เทียบกับ public key ที่ฝังในแอป
 4. ติดตั้งทับแบบ **seamless** แล้วรีสตาร์ตเข้าเวอร์ชันใหม่
