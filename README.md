@@ -1,11 +1,10 @@
 <div align="center">
 
-# 🎬 Blockflix Desktop
+# 🎬 Blockflix
 
-### Build apps, websites, media, and research — with one AI hub.
+### เปลี่ยนทุกความคิดของคุณ ให้กลายเป็น แอป · เว็บไซต์ · งานการ์ตูน/Anime · คอนเทนต์ หรือทั้งระบบธุรกิจ — จบในแพลตฟอร์มเดียว
 
-**AI agent บนเดสก์ท็อปที่ "ลงมือทำงานจริง" จากเครื่องของคุณเอง**
-เขียนโค้ด · สร้างแอป/เว็บไซต์ · วางแผนวิดีโอ-สื่อ · ออกแบบ UI · ทำ deep research · วิเคราะห์ตลาด · automate งาน
+**แพลตฟอร์ม AI-Native สัญชาติไทย — ทำไมต้องรอเครื่องมือ AI จากต่างชาติ ในเมื่อคนไทยสร้างเอง เพื่อคนไทยได้ดีกว่า?**
 
 [![Latest Release](https://img.shields.io/github/v/release/blockflix/Blockflix-Releases?label=ดาวน์โหลดล่าสุด&color=6366f1)](https://github.com/blockflix/Blockflix-Releases/releases/latest)
 ![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon%20%2B%20Intel-black?logo=apple)
@@ -16,35 +15,78 @@
 
 ---
 
-## ✨ Blockflix คืออะไร
+## 💬 พิมพ์ 1 ประโยค → ได้แอปทั้งตัว
 
-**Blockflix** คือ **desktop-first AI agent** — ไม่ใช่แค่ "แชทบอท" แต่เป็น agent ที่ **วางแผน → ลงมือทำ → ตรวจสอบ → ย้อนได้** ทำงานบน **เครื่องของคุณเอง** ด้วย provider และคีย์ของคุณ พร้อม workspace ในเครื่องที่ความจำและไฟล์ทั้งหมดเป็นของคุณ
+แค่บอกว่าคุณอยากได้อะไร เช่น *"สร้างแอปจัดการร้านมือถือครบวงจร"* หรือ *"ทำเว็บบริษัทสไตล์มินิมอล"* แล้วดู Blockflix ลงมือทำต่อหน้าคุณ:
 
-> หนึ่ง hub เดียว — สั่งให้สร้างแอป สร้างเว็บ ทำสื่อ ออกแบบ วิจัย และทำงานอัตโนมัติ ได้จบในที่เดียว
+**ออกแบบหน้าจอ → วางโครงสร้างระบบ → เขียนโค้ดจริง → โชว์ Preview แบบ Real-time → กด Deploy ขึ้นออนไลน์ได้ทันที**
+
+Blockflix **ติดตั้ง Toolchain ให้อัตโนมัติแล้วรันพรีวิวสดในแอปเลย** รองรับ **React • Next.js • Vite • Node.js • Flutter • React Native (Expo)** — สร้างและพรีวิวงานสำหรับ **เว็บ, iPhone และ Android** ได้จาก Prompt เดียว ครอบคลุมทั้งสองแพลตฟอร์มมือถือตั้งแต่แรก
+
+สำหรับงาน **Swift / SwiftUI** รองรับผ่านเอนจิน **Blockflix Review** ที่สั่งงาน iOS Simulator และ Android Emulator ได้จริง (ต้องใช้ macOS Apple Silicon + Xcode) — และเรากำลังขยายเส้นทางนี้ไปสู่ **Apple Watch** ในลำดับถัดไป
+
+## 🎬 สร้างสรรค์งานการ์ตูนและพรีโปรดักชัน Anime จากไอเดียเดียว
+
+จากประโยคเดียว สู่สตอรีบอร์ดและงานภาพของการ์ตูน/Anime ภายในไม่กี่นาที:
+
+**Storyboard • Shot List • Character Design • Scene Design • Manga Layout**
+
+สร้างสตอรีบอร์ด คาแรกเตอร์ ซีน และเลย์เอาต์มังงะ ด้วยสกิลเฉพาะทางผสานกับ **โมเดลสร้างภาพและวิดีโอ** ในโหมด Cinematic — เล่าเรื่องต่อเนื่องเป็นซีรีส์ได้
+
+## 🎨 งานออกแบบ UI/UX ระดับมืออาชีพ
+
+**Mobile App UI • SaaS Dashboard • Landing Page • Design System • User Flow**
+
+ออกมาเป็นสเปกและเอกสารส่งต่อที่ทีม Dev นำไปใช้งานได้จริง ไม่ใช่แค่ภาพสวย
+
+## 🤖 ไม่ได้มี AI แค่ตัวเดียว แต่ทำงานกันทั้งทีม
+
+เบื้องหลัง Blockflix คือ **ทีม AI Agent ผู้เชี่ยวชาญหลายตัวที่ทำงานพร้อมกันในโปรเจกต์เดียว** แตกงานออกเป็นเอเจนต์ย่อยตามความถนัด แล้วประกอบผลลัพธ์กลับมาให้คุณ
+
+- **Agent Card** — เรียกใช้เอเจนต์เฉพาะทางได้ทันที: นักพัฒนา นักวิเคราะห์ นักออกแบบ นักการตลาด นักเขียนการ์ตูน ผู้ช่วยธุรกิจ
+- **Multi-Agent + Multi-Model** — เอเจนต์นักพัฒนาใช้ Claude ส่วนเอเจนต์อื่นเลือกโมเดลที่เหมาะกับงานแต่ละแบบ คุมคุณภาพและต้นทุนไปพร้อมกัน
+- **Skills • Plugins • MCP • Workflow Automation** — เลือกความสามารถมาประกอบเป็นทีมของคุณเองได้อิสระ
+
+## 🔌 เชื่อมต่อ AI ในเครื่องคุณเองได้โดยตรง
+
+ต่อตรงกับ CLI และ API ที่คุณมีอยู่แล้ว: **Claude CLI • OpenAI Codex CLI • Gemini CLI • Grok CLI • Kimi CLI** และผู้ให้บริการ **Anthropic • OpenAI • Azure • Bedrock** รวมถึงโมเดลรันในเครื่องผ่านมาตรฐาน **OpenAI-compatible (รองรับ Ollama / Local LLM)**
+
+เลือกโมเดลให้เหมาะกับงานและงบประมาณของคุณได้เอง พร้อมต่อ **MCP** เข้ากับ **GitHub, ฐานข้อมูล, Browser Automation และ API** ได้ทันที — หรือเพิ่ม MCP ของคุณเองก็ได้
+
+## 🇹🇭 ออกแบบมาเพื่อคนไทย
+
+- ไม่ต้องเขียนโค้ด
+- ไม่ต้องติดตั้งระบบซับซ้อน
+- ไม่ต้องเรียน Agent Framework
+- แค่พิมพ์ภาษาไทยตามธรรมชาติ
+
+Blockflix **วางแผน → สร้าง → ลงมือทำ** ให้คุณโดยอัตโนมัติ ทำงานแบบ Local-first บนเครื่องคุณ รันคำสั่งใน sandbox ที่ควบคุมได้ มี **Plan pane** ให้เห็นแผนก่อนลงมือ, **ตรวจสอบผลก่อนปิดงาน (verify-before-done)** และสั่ง **/undo** ย้อนกลับได้ พร้อมเลือกโมเดลหลายแบบตามงบ เพื่อคุมต้นทุนการใช้ AI ได้เอง
+
+## 🌍 จากไอเดีย สู่การใช้งานจริง ครบทั้งวงจร
+
+**Idea → Research → Planning → Design → Development → Content → Automation → Deploy**
+
+ทั้งหมดในแพลตฟอร์มเดียว สั่งงานได้จาก 14 ช่องทางแชตที่คุณใช้อยู่ทุกวัน
 
 ---
 
-## 🚀 ทำอะไรได้บ้าง
+## 🎯 Vision
 
-| โหมด | ทำอะไร |
-|---|---|
-| 🛠️ **Work** | สร้างแอป/เว็บไซต์/มือถือ พร้อม UX flow, data model, build steps + **Live Preview** รันได้ทุก framework (Node, Flutter, React Native) เห็นผลสดในแอป |
-| 🎞️ **Cinematic** | สร้างภาพ/วิดีโอ/สื่อ · Canvas node-graph ต่อ workflow สร้างสรรค์ · Works marketplace |
-| 🤖 **Agent** | research → plan → execute → validate → สรุป จนจบงานเอง |
-| 🧩 **Capabilities** | สร้าง/ติดตั้ง **skills**, **MCP servers**, custom API ที่ใช้ซ้ำได้ |
-| 🔌 **Integrations** | เชื่อม 14 แพลตฟอร์มแชต — คุยกับ agent จากที่ไหนก็ได้ |
+เราเชื่อว่าในอนาคต ทุกคนควรสร้างธุรกิจ สร้างแอป สร้างคอนเทนต์ และสร้างระบบอัตโนมัติได้ — โดยไม่ต้องมีทีมขนาดใหญ่ Blockflix กำลังทำให้สิ่งนั้นเกิดขึ้นจริง
+
+> **"From Idea to Execution — เปลี่ยนความคิด ให้กลายเป็นผลงานจริง"**
 
 ---
 
-## 💡 ทำไม Blockflix ถึงต่าง
+## 📢 Blockflix กำลังจะเปิดให้ทดสอบเร็ว ๆ นี้
 
-- 🏠 **Local-first** — รันบนเครื่องคุณ ใช้คีย์ของคุณเอง ความจำ + ไฟล์อยู่ในเครื่อง ไม่ส่งขึ้น cloud
-- ✅ **Agent ที่ซื่อสัตย์** — มี **Plan pane** เห็นแผนงานอัปเดตสด · **Verify-before-done** ตรวจงานกับของจริง (ไฟล์บนดิสก์ + ผลคำสั่ง) ก่อนบอกว่า "เสร็จ" · **`/undo`** ย้อนการแก้ไฟล์ของ turn ล่าสุดได้
-- 🧠 **Dream memory** — ความจำสองเฟส consolidate อัตโนมัติ (ดูดความรู้ + ตัดข้อมูลซ้ำ + archive ของเก่า)
-- 🔒 **Sandboxed shell** — จำกัดสิทธิ์คำสั่ง (Seatbelt บน macOS / bwrap บน Linux) + กันอ่าน secret เช่น `~/.ssh`
-- 🧰 **เครื่องมือครบ** — ไฟล์ · shell · web search/fetch · MCP · cron · subagent · parallel research · image generation · long-running tasks
-- 🌐 **หลาย LLM provider** — Anthropic · OpenAI (+ Codex) · Gemini · Grok · Kimi · Azure · Bedrock · และ OpenAI-compatible อื่นๆ
-- 💬 **14 ช่องทางแชต** — Telegram · Discord · Slack · WhatsApp · Feishu · Matrix · MS Teams · QQ · WeChat · WeCom · DingTalk · Email · MoChat · WebSocket
+เตรียมตัวเป็นกลุ่มแรกที่ได้ลองใช้ Blockflix ก่อนใคร
+
+👉 กด **⭐ Star** และ **👁 Watch** repo นี้ไว้ เพื่อรับแจ้งเตือนรุ่นทดสอบแรกทันทีที่เปิด
+
+<!-- TODO: ใส่ลิงก์ลงทะเบียน Early Access ที่นี่ -->
+
+<div align="center"><sub>— <b>Blockflix Studio Thailand</b></sub></div>
 
 ---
 
