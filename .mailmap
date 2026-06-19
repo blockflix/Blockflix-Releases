@@ -1,0 +1,7 @@
+# ซ่อนชื่อ claude จาก Contributors
+Claude <claude@anthropic.com> claude <claude@users.noreply.github.com>
+Claude <claude@anthropic.com> claude Claude
+
+# ถ้าอยากให้ commit ของ claude ไปรวมกับบัญชีหลักของคุณ
+# ให้ uncomment บรรทัดด้านล่าง แล้วแก้ชื่อและอีเมลให้ตรงกับคุณ
+# Your Name <your-email@example.com> claude <claude@users.noreply.github.com>
