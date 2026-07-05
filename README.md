@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎬 Blockflix
+# Blockflix Studio
 
 ### พลังของ AI Agent ระดับ Developer ในมือของทุกคน
 
